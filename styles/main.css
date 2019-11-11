@@ -1,0 +1,97 @@
+html {
+  font-family: 'Alegreya', serif;
+}
+p {
+    font-size: 24px;
+    padding: 2%;
+ }
+ 
+img {
+    border-style: none;
+    width: 200px;
+    height: 200px;
+    border-radius: 180px;
+    padding: 1%;
+}
+
+body {
+     text-align: center;
+     background-color: rgba(255, 255, 128, .5); 
+    }
+
+    /*navigation styling, code given in a class, by Liz Coulter */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  
+    nav {
+      margin: 20px;
+    }
+    
+    ul {
+      overflow: auto;
+      list-style-type: none;
+    }
+   
+    li {
+      height: 25px;
+      float: left;
+      margin-right: 0px;
+      border-right: 1px solid 
+     #aaa;
+      padding: 0 20px;
+    }
+    
+    li:last-child {
+      border-right: none;
+    }
+   
+    li a {
+      text-decoration: none;
+      color: #ccc;
+      font-family: 'Alegreya', serif;
+      text-transform: uppercase;
+      transition: all 0.5s ease;
+    }
+     
+    li a:hover {
+      color: rgb(7, 7, 7);
+    }
+  
+    li.active a {
+      font-weight: bold;
+      color: #333;
+    }
+  /* styling media icons */
+ .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  .wrapper i {
+    padding: 10px;
+    text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+    transition: all ease-in-out 150ms;
+  }
+  .wrapper a:nth-child(1) {
+    color: #dd4b39;
+  }
+  .wrapper a:nth-child(2) {
+    color: #4867AA;
+  }
+  .wrapper a:nth-child(3) {
+    color: #1DA1F2;
+  }
+  .wrapper i:hover {
+    margin-top: -3px;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+  }
+  /* idea how to style social media icons from https://codepen.io/CF-251/pen/eGZLYV  pen by Helen
+@CF-251  */
+
+  i.fa::before{
+    font-size: 40px;
+}
+/* updating the font-size of a FA icon using the before pseudo-element. No need for extra wrapper elements or rewriting classes. https://developer.mozilla.org/en-US/docs/Web/CSS/::before */
