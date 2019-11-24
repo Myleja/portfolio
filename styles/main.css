@@ -16,7 +16,7 @@ img {
 
 body {
      text-align: center;
-     background-color: rgba(255, 255, 128, .5); 
+     background-color: rgba(254, 254, 128, .5); 
     }
 
     /*navigation styling, code given in a class, by Liz Coulter */
@@ -66,7 +66,7 @@ body {
 
     }
 
-  /* styling media icons */
+  /* icons */
  .wrapper {
     display: flex;
     justify-content: center;
@@ -75,21 +75,21 @@ body {
   }
   .wrapper i {
     padding: 10px;
-    text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
-    transition: all ease-in-out 150ms;
+    text-shadow: 0px 6px 8px rgba(5, 5, 5, 0.6);
+    transition: all ease-in-out 100ms;
   }
   .wrapper a:nth-child(1) {
-    color: #dd4b39;
+    color: rgb(224, 36, 36)
   }
   .wrapper a:nth-child(2) {
-    color: #4867AA;
+    color: rgb(61, 95, 168);
   }
   .wrapper a:nth-child(3) {
-    color: #1DA1F2;
+    color: rgb(28, 151, 228);
   }
   .wrapper i:hover {
-    margin-top: -3px;
-    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+    margin-top: -2px;
+    text-shadow: 0px 14px 10px rgba(5, 5, 5, 0.4);
   }
   /* idea how to style social media icons from https://codepen.io/CF-251/pen/eGZLYV  pen by Helen
 @CF-251  */
